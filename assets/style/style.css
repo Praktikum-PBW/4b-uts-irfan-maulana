@@ -1,0 +1,102 @@
+body {
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    background-position: fixed;
+}
+
+
+.conglass {
+    background-color: rgba(255, 255, 255, 0.349);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur ;
+}
+
+h1 {
+    color: crimson;
+}
+
+.btn-custom {
+    border-radius: 30px;
+    background-color: #EF3959;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 2px 7px 104px 0px hsla(0, 81%, 55%, 0.603);
+    -webkit-box-shadow: 2px 7px 104px 0px rgba(224,49,49,0.7);
+    -moz-box-shadow: 2px 7px 104px 0px rgba(224,49,49,0.7);
+    
+}
+
+
+.imgCstm img {
+    max-width: 400px;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0%,100% 
+    {
+        transform: translateY(50px);
+    }
+    50%
+    {
+        transform: translateY(100px);
+    }
+}
+
+
+.con-card {
+    background-color: rgba(255, 255, 255, 0.349);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur ;
+}
+
+.kotak {
+    margin-inline: auto;
+    margin-bottom: 12px;
+    border-radius: 30px;
+    background-color: #ae6adb;
+    border: none;
+    width: max-content;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: p-regular;
+    font-size: 14px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 116px 29px rgba(184,64,179,0.75);
+-webkit-box-shadow: 10px 10px 116px 29px rgba(184,64,179,0.75);
+-moz-box-shadow: 10px 10px 116px 29px rgba(184,64,179,0.75);
+}
+
+.confooter {
+    background-color: rgba(255, 255, 255, 0.349);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur ;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+
+.nav-custom {
+    text-align: right;
+}
